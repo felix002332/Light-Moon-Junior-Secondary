@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Lightmoon Junior Secondary School</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/lightmoon-logo.png" alt="Lightmoon JSS Logo">
+            <div>
+                <h1>Lightmoon Junior Secondary School</h1>
+                <p>Nurturing Tomorrow's Leaders Today</p>
+            </div>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="news.html" class="active">News & Events</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <h1>Latest News & Events</h1>
+        <p>Stay updated with the latest happenings at Lightmoon Junior Secondary School.</p>
+        
+        <div class="tabs">
+            <div class="tab active" onclick="openTab(event, 'news-section')">News</div>
+            <div class="tab" onclick="openTab(event, 'events-section')">Events</div>
+            <div class="tab" onclick="openTab(event, 'gallery-section')">Gallery</div>
+        </div>
+        
+        <!-- News Section -->
+        <div id="news-section" class="tab-content active">
+            <div class="news-grid">
+                <div class="news-card">
+                    <img src="images/science-fair.jpg" alt="Science Fair">
+                    <div class="news-content">
+                        <span class="news-date">October 5, 2023</span>
+                        <h2>Annual Science Fair Winners Announced</h2>
+                        <p>The school held its annual science fair with over 50 projects displayed. Winners will represent the school at the regional competition next month.</p>
+                        <a href="news-science-fair.html" style="color: var(--primary);">Read Full Story →</a>
+                    </div>
+                </div>
+                
+                <div class="news-card">
+                    <img src="images/computer-lab.jpg" alt="New Computer Lab">
+                    <div class="news-content">
+                        <span class="news-date">September 20, 2023</span>
+                        <h2>New Computer Lab Inaugurated</h2>
+                        <p>Our new state-of-the-art computer lab was officially opened by the Minister of Education, featuring 30 new workstations and interactive whiteboards.</p>
+                        <a href="news-computer-lab.html" style="color: var(--primary);">Read Full Story →</a>
+                    </div>
+                </div>
+                
+                <div class="news-card">
+                    <img src="images/sports-team.jpg" alt="Sports Team">
+                    <div class="news-content">
+                        <span class="news-date">August 15, 2023</span>
+                        <h2>Sports Team Wins Regional Championship</h2>
+                        <p>Our athletics team brought home 5 gold medals from the regional junior secondary schools championship last weekend.</p>
+                        <a href="news-sports-championship.html" style="color: var(--primary);">Read Full Story →</a>
+                    </div>
+                </div>
+                
+                <div class="news-card">
+                    <img src="images/reading-program.jpg" alt="Reading Program">
+                    <div class="news-content">
+                        <span class="news-date">July 28, 2023</span>
+                        <h2>Summer Reading Program Concludes</h2>
+                        <p>Over 200 students participated in our summer reading program, with top readers receiving special awards at the closing ceremony.</p>
+                        <a href="news-reading-program.html" style="color: var(--primary);">Read Full Story →</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin: 2rem 0;">
+                <a href="news-archive.html" style="background: var(--primary); color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">View All News</a>
+            </div>
+        </div>
+        
+        <!-- Events Section -->
+        <div id="events-section" class="tab-content">
+            <div class="events-list">
+                <div class="event-item">
+                    <div class="event-date">
+                        <div class="event-day">15</div>
+                        <div class="event-month">OCT</div>
+                    </div>
+                    <div class="event-info">
+                        <h2>Parent-Teacher Conference</h2>
+                        <p><strong>Time:</strong> 8:00 AM - 4:00 PM</p>
+                        <p><strong>Location:</strong> School Hall</p>
+                        <p>Parents are invited to meet with teachers to discuss student progress. Please schedule your appointment in advance.</p>
+                        <a href="event-pt-conference.html" style="color: var(--primary);">More Details →</a>
+                    </div>
+                </div>
+                
+                <div class="event-item">
+                    <div class="event-date">
+                        <div class="event-day">03</div>
+                        <div class="event-month">NOV</div>
+                    </div>
+                    <div class="event-info">
+                        <h2>Annual Science Fair</h2>
+                        <p><strong>Time:</strong> 9:00 AM - 2:00 PM</p>
+                        <p><strong>Location:</strong> Science Block</p>
+                        <p>Students will showcase their scientific projects and experiments. Open to parents and community members.</p>
+                        <a href="event-science-fair.html" style="color: var(--primary);">More Details →</a>
+                    </div>
+                </div>
+                
+                <div class="event-item">
+                    <div class="event-date">
+                        <div class="event-day">10</div>
+                        <div class="event-month">DEC</div>
+                    </div>
+                    <div class="event-info">
+                        <h2>Sports Day</h2>
+                        <p><strong>Time:</strong> 7:30 AM - 5:00 PM</p>
+                        <p><strong>Location:</strong> School Field</p>
+                        <p>Annual inter-house sports competition with track and field events. Come cheer for your favorite house!</p>
+                        <a href="event-sports-day.html" style="color: var(--primary);">More Details →</a>
+                    </div>
+                </div>
+                
+                <div class="event-item">
+                    <div class="event-date">
+                        <div class="event-day">15</div>
+                        <div class="event-month">DEC</div>
+                    </div>
+                    <div class="event-info">
+                        <h2>Prize Giving Day</h2>
+                        <p><strong>Time:</strong> 10:00 AM - 1:00 PM</p>
+                        <p><strong>Location:</strong> School Hall</p>
+                        <p>Celebration of academic and extracurricular achievements for the year. Special guest speaker: Dr. Jane Mwangi, Education Commissioner.</p>
+                        <a href="event-prize-giving.html" style="color: var(--primary);">More Details →</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin: 2rem 0;">
+                <a href="events-calendar.html" style="background: var(--primary); color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">View Full Calendar</a>
+            </div>
+        </div>
+        
+        <!-- Gallery Section -->
+        <div id="gallery-section" class="tab-content">
+            <h2>School Gallery</h2>
+            <p>Photos from recent school events and activities</p>
+            
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="images/gallery-classroom.jpg" alt="Classroom">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-library.jpg" alt="Library">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-lab.jpg" alt="Science Lab">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-sports.jpg" alt="Sports">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-art.jpg" alt="Art Class">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-event.jpg" alt="School Event">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-music.jpg" alt="Music Class">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-garden.jpg" alt="School Garden">
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin: 2rem 0;">
+                <a href="photo-gallery.html" style="background: var(--primary); color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">View Full Gallery</a>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p>© <span id="currentYear"></span> Lightmoon Junior Secondary School. All Rights Reserved.</p>
+        <p>123 Education Road, Learning City | Phone: (123) 456-7890 | Email: info@lightmoonjss.edu</p>
+    </footer>
+    
+    <script>
+        // Function to handle tab switching
+        function openTab(evt, tabName) {
+            // Get all elements with class="tab-content" and hide them
+            var tabcontent = document.getElementsByClassName("tab-content");
+            for (var i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].classList.remove("active");
+            }
+            
+            // Get all elements with class="tab" and remove the class "active"
+            var tablinks = document.getElementsByClassName("tab");
+            for (var i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active");
+            }
+            
+            // Show the current tab, and add an "active" class to the button that opened the tab
+            document.getElementById(tabName).classList.add("active");
+            evt.currentTarget.classList.add("active");
+        }
+        
+        // Set current year in footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>

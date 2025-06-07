@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Lightmoon Junior Secondary School</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">s
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="lightmoon-logo.png" alt="Lightmoon JSS Logo">
+            <div>
+                <h1>Lightmoon Junior Secondary School</h1>
+                <p>Nurturing Tomorrow's Leaders Today</p>
+            </div>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="admissions.html" class="active">Admissions</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="news.html">News & Events</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+    <div class="content-section">
+        <h2>Join Our School Community</h2>
+        <p>We welcome applications from students who demonstrate academic potential, good character, and a willingness to contribute positively to our school community.</p>
+        
+        <h3>Admission Process</h3>
+        <div class="admission-steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h4>Application</h4>
+                <p>Submit a completed application form along with required documents.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h4>Assessment</h4>
+                <p>Students may be required to take an entrance assessment.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h4>Interview</h4>
+                <p>Shortlisted candidates and parents attend an interview.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <h4>Offer</h4>
+                <p>Successful applicants receive an admission offer letter.</p>
+            </div>
+        </div>
+        
+        <h3>Requirements</h3>
+        <div style="background: var(--light); padding: 1.5rem; border-radius: 5px; margin: 2rem 0;">
+            <h4>For New Students (Grade 7)</h4>
+            <ul>
+                <li>Completed application form</li>
+                <li>Copy of birth certificate</li>
+                <li>Previous school report cards (last 2 years)</li>
+                <li>Recommendation letter from previous school</li>
+                <li>Passport-sized photographs (4 copies)</li>
+            </ul>
+            
+            <h4>For Transfer Students</h4>
+            <ul>
+                <li>All requirements for new students</li>
+                <li>Transfer letter from previous school</li>
+                <li>Current year's report card</li>
+            </ul>
+        </div>
+        
+        <h3>Fee Structure 2023/2024</h3>
+        <div class="fee-structure">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Amount</th>
+                        <th>Payment Schedule</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Tuition Fee</td>
+                        <td>$1,200</td>
+                        <td>Per term (3 terms)</td>
+                    </tr>
+                    <tr>
+                        <td>Registration Fee</td>
+                        <td>$100</td>
+                        <td>One-time (new students only)</td>
+                    </tr>
+                    <tr>
+                        <td>Development Levy</td>
+                        <td>$150</td>
+                        <td>Annual</td>
+                    </tr>
+                    <tr>
+                        <td>Sports & Activities</td>
+                        <td>$75</td>
+                        <td>Per term</td>
+                    </tr>
+                    <tr>
+                        <td>Boarding Fee (optional)</td>
+                        <td>$800</td>
+                        <td>Per term</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div style="background: var(--secondary); padding: 1.5rem; border-radius: 5px; margin: 2rem 0;">
+            <h3>Scholarships & Financial Aid</h3>
+            <p>We offer merit-based scholarships and need-based financial aid to qualified students. Applications are considered on a case-by-case basis.</p>
+            <p>Contact our admissions office for more information about scholarship opportunities.</p>
+        </div>
+        
+        <h3>Application Form</h3>
+        <div class="form-container">
+            <form id="admissionForm">
+                <div class="form-group">
+                    <label for="studentName">Student Full Name</label>
+                    <input type="text" id="studentName" name="studentName" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="gender">Gender</label>
+                    <select id="gender" name="gender" required>
+                        <option value="">Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="currentSchool">Current School</label>
+                    <input type="text" id="currentSchool" name="currentSchool">
+                </div>
+                
+                <div class="form-group">
+                    <label for="grade">Grade Applying For</label>
+                    <select id="grade" name="grade" required>
+                        <option value="">Select Grade</option>
+                        <option value="7">Grade 7</option>
+                        <option value="8">Grade 8</option>
+                        <option value="9">Grade 9</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="parentName">Parent/Guardian Name</label>
+                    <input type="text" id="parentName" name="parentName" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="parentEmail">Parent/Guardian Email</label>
+                    <input type="email" id="parentEmail" name="parentEmail" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="parentPhone">Parent/Guardian Phone</label>
+                    <input type="tel" id="parentPhone" name="parentPhone" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="address">Home Address</label>
+                    <textarea id="address" name="address" rows="3" required></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="additionalInfo">Additional Information</label>
+                    <textarea id="additionalInfo" name="additionalInfo" rows="3"></textarea>
+                </div>
+                
+                <button type="submit">Submit Application</button>
+            </form>
+        </div>
+        
+        <h3>Downloads</h3>
+        <div class="downloads">
+            <div class="download-item">
+                <div class="download-icon"><i class="fas fa-file-pdf"></i></div>
+                <div>
+                    <h4>Admission Prospectus</h4>
+                    <p>Download our complete school prospectus with detailed information</p>
+                    <a href="prospectus.pdf" download>Download (PDF, 2.4MB)</a>
+                </div>
+            </div>
+            <div class="download-item">
+                <div class="download-icon"><i class="fas fa-file-word"></i></div>
+                <div>
+                    <h4>Application Form</h4>
+                    <p>Printable version of our application form</p>
+                    <a href="application-form.doc" download>Download (DOC, 450KB)</a>
+                </div>
+            </div>
+            <div class="download-item">
+                <div class="download-icon"><i class="fas fa-file-excel"></i></div>
+                <div>
+                    <h4>Fee Structure</h4>
+                    <p>Detailed breakdown of all fees</p>
+                    <a href="fee-structure.xlsx" download>Download (XLSX, 320KB)</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p>© 2023 Lightmoon Junior Secondary School. All Rights Reserved.</p>
+        <p>123 Education Road, Learning City | Phone: (123) 456-7890 | Email: info@lightmoonjss.edu</p>
+    </footer>
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script>
+        document.getElementById('admissionForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your application! We will contact you soon.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
